@@ -73,7 +73,7 @@ padding: 3em 26em 5em 10em ;
     display: none;
 }
 .heading_productpage {
-   
+   font-size: 2em;
     display: none;
    
    
@@ -89,16 +89,16 @@ padding: 3em 26em 5em 10em ;
   
 }
 .overview-list i {
-    color: #4caf50; /* Green color for the checkmark */
-    margin-right: 10px; /* Space between icon and text */
-    font-size: 16px; /* Adjusted icon size for better alignment */
+    color: #4caf50; 
+    margin-right: 10px;
+    font-size: 16px; 
 }
 .overview-list li{
     display: flex;
-    align-items: center; /* Vertically align the text and icon */
+    align-items: center; 
     margin-bottom: 1em;
-    font-size: 14px; /* Increased font size for better readability */
-    line-height: 1.5; /* Added line height for better text legibility */
+    font-size: 14px; 
+    line-height: 1.5; 
     color: #555;
 }
 .acadlix_social_share_options{
@@ -242,8 +242,8 @@ padding: 3em 26em 5em 10em ;
 
 .acadlix_course_details h2 {
     margin-bottom: 20px;
-    color: #ff7a00; /* Vibrant color for title */
-    font-size: 1.75em; /* Slightly larger title for emphasis */
+    color: #ff7a00; 
+    font-size: 1.75em; 
     font-weight: 600; 
 }
 
@@ -304,9 +304,10 @@ padding: 3em 26em 5em 10em ;
 }
 .title{
     margin-bottom: 20px;
-    font-size: 1.25em; 
+    font-size: 2em; 
     font-weight: 600;
     color: #333;
+  
    
 }
 
@@ -343,6 +344,7 @@ padding: 3em 26em 5em 10em ;
 
 .course-columns {
     display: flex;
+    flex-direction: column;
     background-color: #e5e4e4;
     padding: 41px;
     gap: 0px;
@@ -352,7 +354,7 @@ padding: 3em 26em 5em 10em ;
 
 .column {
     width: 100%;
-    margin-bottom: 1em;
+    margin-bottom: -4em;
     flex: 1;
 }
 
@@ -377,8 +379,8 @@ padding: 3em 26em 5em 10em ;
     grid-template-columns: 0.1fr 1fr;
     list-style-type: none;
     padding-left: 0;
-    font-size: 0.9em; /* Adjusted for better readability */
-    margin-bottom: 1.5em; /* Increased margin for more space at the bottom */
+    font-size: 0.9em; 
+    margin-bottom: 1.5em; 
     gap: 10px;
 
 
@@ -390,7 +392,7 @@ padding: 3em 26em 5em 10em ;
 }
 .description_heading{
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 2em;
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -406,7 +408,7 @@ padding: 3em 26em 5em 10em ;
 
 .course-details-title, .course-includes-title {
     color: #333;
-    font-size: 1.5em; /* Increased font size for better legibility */
+    font-size: 2em;
     margin-bottom: 20px;
 }
 
@@ -419,11 +421,11 @@ padding: 3em 26em 5em 10em ;
 }
 
 .course-includes-title {
-    font-size: 1.75em; /* Larger title for emphasis */
-    color: #ff7a00; /* Bright color for title consistency */
+    font-size: 1.75em; 
+    color: #ff7a00;
     font-weight: 600;
-    margin-bottom: 20px; /* Added spacing below title */
-    text-align: center; /* Center-align title */
+    margin-bottom: 20px; 
+   
 }
 
 /* General Curriculum Section Styling */
@@ -714,12 +716,12 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Center-align content */
+    /* Center-align content */
     margin-bottom: 2em;
 }
 
 .top_companies h3 {
-    font-size: 1.75em;
+    font-size: 2em;
     color: #333; /* Dark color for the heading */
     font-weight: 600; /* Make the title bold for emphasis */
     margin-bottom: 20px; /* Space below the title */
@@ -745,7 +747,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #333; /* Dark color for text */
     font-weight: 600; /* Bold for better visibility */
     margin-bottom: 20px; /* Spacing between heading and paragraphs */
-    text-align: center; /* Center the heading */
+    text-align: left; /* Center the heading */
 }
 
 .description_paragraph {
@@ -935,7 +937,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-heading {
-    font-size: 1.1em;
+    font-size: 2em;
+    margin-top: 20px;
     margin-bottom: 20px;
     color: #333;
     font-weight: bold;
@@ -1149,7 +1152,7 @@ left: 78%;
     margin-bottom: 0.8em;
 }
 
-/* Share Section */
+
 .social_share {
  
     margin-top: 20px;
@@ -1173,7 +1176,7 @@ left: 78%;
 }
 .acadlix_related_courses {
     padding: 20px;
-    /* background-color: #f9f9f9;  */
+
     width: 100%;
 }
 
