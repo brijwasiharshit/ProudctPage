@@ -1,0 +1,1616 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  
+}
+:root{
+    --primary-color:  #ffe0d7;
+    --secondary-color: #ff6d14;
+    --tertiary-color: #f34e12;
+    --text-color: #333333;
+    --border-color: #cccccc;
+    --accent-color: #f3a712;
+    --acadlix-icon-star-color:orange;
+    --acadlix-background-color:pink;
+   --acadlix-Button-padding: 5.5px;
+
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+font-weight: 500;
+    margin-bottom: 0;
+
+   
+}
+
+
+p, span, div {
+   font-family: 'Roboto', sans-serif;
+font-weight: 400;
+
+    margin: 4px;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    
+        padding: 2em 4em;
+}
+.acadlix_products_details_container{
+    max-width: 1000px;
+}
+.acadlix_header_productpage {
+  
+padding: 3em 26em 5em 10em ;
+    border-radius: 0px;
+  margin-top: 6em;
+ 
+  background-color: rgb(215 209 209);
+}
+
+.acadlix_navbar_productpage a {
+    color: #747272;
+    text-decoration: none;
+}
+.acadlix_products_details_navbar_productpage a{
+    color: #747272;
+    text-decoration: none;
+    
+}
+.acadlix_products_details_navbar_productpage{
+    display: none;
+}
+.heading_productpage {
+   font-size: 2em;
+    display: none;
+   
+   
+   font-weight: bold 
+}
+.paragraph_productpage{
+    color: #000000;
+    margin-top: 20px;
+   max-width: 90%;
+    margin-bottom: 20px;
+    font-size: 1.55em;
+    font-weight: bold;
+  
+}
+.overview-list i {
+    color: #4caf50; 
+    margin-right: 10px;
+    font-size: 16px; 
+}
+.overview-list li{
+    display: flex;
+    align-items: center; 
+    margin-bottom: 1em;
+    font-size: 14px; 
+    line-height: 1.5; 
+    color: #555;
+}
+.acadlix_social_share_options{
+    display: flex;
+}
+.fa{
+    line-height: 1.5;
+}
+
+.course-info1{
+    display: flex;
+    margin-bottom: 15px;
+ 
+}
+.acadlix_languagelastupdated{
+    margin-bottom: 10px;
+}
+.last-updated{
+  margin-right: 10px;
+  line-height: 1.55;
+  
+   
+
+}
+.CreatedBy{
+    color: grey;
+}
+.cart-btn{
+    color:var(--tertiary-color);
+}
+
+.course-info {
+   
+   
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.language .creators{
+    font-size: 1rem;
+}
+
+
+.bestseller {
+    background-color:#f58a08;
+    color: #fff;
+    padding: 3px 5px;
+    width: 8vw;
+    
+    border-radius: 5px;
+    font-size: 0.9em;
+ display: flex;
+ justify-content: center;
+    
+}
+.acadlix_language .acadlix_last_updated{
+    font-size: 1rem;
+ 
+}
+.star i{
+    color: #ffa41c ;
+    
+ 
+  
+}
+
+.star{
+    font-size: 0.8em;
+    color: black;
+    margin-left: 1em;
+    margin-right: 1em;
+  
+}
+
+.course-image {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.course-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section */
+.course-header {
+    position: relative;
+}
+
+.course-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.play-button-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.play-button-icon {
+    width: 50px;
+    height: 50px;
+}
+
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+
+
+
+.acadlix_course_details {
+    background-color: #f9f9f9; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2em;
+}
+
+.acadlix_course_details h2 {
+    margin-bottom: 20px;
+    color: #ff7a00; 
+    font-size: 1.75em; 
+    font-weight: 600; 
+}
+
+.details-list ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+.details-list ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+/* Who This Course is For Section */
+.course-audience {
+  
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+   
+}
+
+.course-audience h2 {
+    margin-bottom: 20px;
+    color: #ff7a00;
+}
+
+.course-audience ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+.course-audience ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+/* Course Includes Section */
+.course-features {
+    
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+   
+}
+.fa-check:before {
+    content: "\f00c";
+    background: var(--acadlix-icon-star-color);
+    border-radius: 50px;
+    color: white;
+    padding: 2px;
+    
+}
+
+.course-features h2 {
+    margin-bottom: 20px;
+    color: #ff7a00;
+}
+.title{
+    margin-bottom: 20px;
+    font-size: 2em; 
+    font-weight: 600;
+    color: #333;
+  
+   
+}
+
+
+/* Course Includes Grid Layout */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.feature-item {
+    text-align: center;
+}
+
+.feature-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    font-size: 1.1em;
+    color: #555;
+}
+.column1{
+    flex: 1;
+    margin-top: 4em;
+    margin-bottom: 4em;
+
+}
+
+
+
+.course-columns {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e4e4;
+    padding: 41px;
+    gap: 0px;
+   
+   
+}
+
+.column {
+    width: 100%;
+    margin-bottom: -4em;
+    flex: 1;
+}
+
+
+.list {
+    list-style: none; /* Removes default bullet points */
+    padding-left: 0;
+}
+
+.list li {
+    margin-bottom: 37px;
+    color: #5f5555;
+
+}
+
+.icon-check {
+    margin-right: 5px;
+}
+.overview-list{
+
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 0.9em; 
+    margin-bottom: 1.5em; 
+    gap: 10px;
+
+
+}
+.top_companies{
+    border: 1px solid #abaaaa;
+    border-radius:0px 0px 0px 0px;
+   
+}
+.description_heading{
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.description_paragraph{
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 1em;
+
+}
+.course-details, .course-includes {
+    margin-bottom: 40px;
+}
+
+.course-details-title, .course-includes-title {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.course-includes {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2em;
+}
+
+.course-includes-title {
+    font-size: 1.75em; 
+    color: #ff7a00;
+    font-weight: 600;
+    margin-bottom: 20px; 
+   
+}
+
+/* General Curriculum Section Styling */
+.curriculum {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.curriculum-title {
+    font-size: 1.6em; /* Slightly increased font size for title */
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333; /* Darkened the text color */
+}
+
+/* Curriculum Section Styling */
+.curriculum_section {
+    padding: 15px;
+    border: 0.1px solid #ddd;
+    transition: background-color 0.3s ease;
+}
+
+.acadlix_curriculum_summary {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.1em; 
+    cursor: pointer;
+    transition: color 0.3s ease;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.acadlix_curriculum_summary::after {
+    content: "▼"; /* Unicode character for a dropdown arrow */
+    font-size: 0.9em;
+    margin-left: 8px;
+    transition: transform 0.3s ease;
+}
+.curriculum_section[open] .acadlix_curriculum_summary::after {
+        transform: rotate(180deg);
+    }
+
+.acadlix_curriculum_summary:hover {
+    color: #cc3300;
+}
+
+.acadlix_curriculum_summary::-webkit-details-marker {
+    display: none;
+}
+
+.acadlix_curriculum_summary:before {
+    font-size: 1.1em;
+    float: right;
+    transition: transform 0.3s, color 0.3s ease;
+}
+
+.curriculum_section[open] .acadlix_curriculum_summary:after {
+    transform: rotate(180deg);
+}
+
+.curriculum_section[open] .acadlix_curriculum_summary {
+    color: #e75538;
+}
+
+/* Heading Styling */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: #333; /* Darkened text for readability */
+}
+
+/* Instructor Card Styling */
+/* Instructor Card Container */
+.instructor-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.instructor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Hover shadow effect */
+}
+
+/* Instructor Information Section */
+.instructor-info {
+    display: flex;
+    align-items: center;
+}
+
+/* Instructor Photo */
+.instructor-photo {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    border: 2px solid #f39c12; /* Added border for emphasis */
+}
+
+/* Instructor Details */
+.instructor-details h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+.instructor-details p {
+    margin-bottom: 10px;
+    color: #666; /* Slightly darkened for readability */
+    line-height: 1.5; /* Improved line height */
+}
+
+/* Stats Section */
+.stats {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.stats span {
+    margin-right: 10px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+/* Link Style */
+.instructor-details a {
+    color: #e75538;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.instructor-details a:hover {
+    color: #cc3300; /* Hover effect for read more link */
+}
+
+
+/* Rating Score Section Styling */
+.rating_score {
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    height: 10rem;
+    margin: 15px 0;
+}
+
+.rating_score h1 {
+    font-weight: bold;
+    position: relative;
+    bottom: 0.3em;
+    right: 0.5em;
+    margin-bottom: 10px;
+}
+
+/* Rating Section Styling */
+.rating-bars {
+    width: 100%;
+    position: relative;
+    left: 2em;
+}
+
+.rating-section {
+    display: flex;
+}
+
+.rating-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.rating-row span {
+    width: 150px;
+    white-space: nowrap;
+}
+
+.rating_score {
+    /* display: flex; */
+    height: 140px;
+    position: relative;
+    margin-left: 1em;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.fill {
+    background-color: #f39c12;
+    height: 60%;
+    border-radius: 8px;
+}
+
+/* Feedback Section Styling */
+.feedback-section {
+    padding: 20px;
+    background-color: white;
+}
+
+.feedback-card {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    margin: 15px 0;
+    padding: 10px;
+}
+
+.feedback-header {
+    display: flex;
+    align-items: center;
+}
+
+.feedback-header img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.feedback-info h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.feedback-info span {
+    margin: 0;
+    color: #999;
+    font-size: 14px;
+}
+
+.feedback-card p {
+    font-size: 14px;
+    color: #555;
+    margin-left: 8%;
+}
+
+/* Load More Button Styling */
+.load-more-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ffe0d7;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    right: 40%;
+    color: deeppink;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.load-more-btn:hover {
+    background-color: #ff5a39;
+}
+
+
+.course-includes-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.course-includes-item {
+    display: flex;
+    align-items: center;
+    font-size: 1.1em; /* Slightly larger font for better readability */
+    margin-bottom: 1.5em; /* Increased space between items for better flow */
+    color: #555; /* Softer text color */
+}
+
+.course-includes-item i {
+    color: #4caf50; /* Green color for icons */
+    margin-right: 15px; /* Increased space between icon and text */
+    font-size: 20px; /* Larger icon size for better emphasis */
+}
+
+.course-includes-item p {
+    margin: 0; /* Remove default margin from <p> tags */
+    line-height: 1.5; /* Improved line height for better text spacing */
+}
+
+.top_companies {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Center-align content */
+    margin-bottom: 2em;
+}
+
+.top_companies h3 {
+    font-size: 2em;
+    color: #333; /* Dark color for the heading */
+    font-weight: 600; /* Make the title bold for emphasis */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.top_companies img {
+    max-width: 120px; /* Control the size of the company logos */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 15px; /* Space between images */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+.description {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2em;
+    line-height: 1.6; /* Improve text readability */
+}
+
+.description_heading {
+    font-size: 2em; /* Larger heading for emphasis */
+    color: #333; /* Dark color for text */
+    font-weight: 600; /* Bold for better visibility */
+    margin-bottom: 20px; /* Spacing between heading and paragraphs */
+    text-align: left; /* Center the heading */
+}
+
+.description_paragraph {
+    font-size: 1.1em; /* Slightly larger text for better readability */
+    color: #555; /* Softer text color */
+    margin-bottom: 1.5em; /* Increased space between paragraphs */
+    text-align: justify; /* Align text for better flow */
+}
+
+.description_paragraph:last-child {
+    margin-bottom: 0; /* Remove margin from last paragraph */
+}
+
+@media (max-width: 768px) {
+    .description {
+        padding: 15px; /* Reduced padding for smaller screens */
+    }
+
+    .description_heading {
+        font-size: 1.6em; /* Adjust heading size for mobile */
+    }
+
+    .description_paragraph {
+        font-size: 1em; /* Adjust paragraph font size for mobile */
+    }
+}
+
+.top_companies img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+@media (max-width: 768px) {
+    .top_companies {
+        padding: 15px; /* Reduced padding for smaller screens */
+    }
+
+    .top_companies h3 {
+        font-size: 1.4em; /* Adjust title size for mobile */
+    }
+
+    .top_companies img {
+        max-width: 100px; /* Reduce logo size on smaller screens */
+        margin: 10px; /* Reduce space between logos */
+    }
+    .acadlix_products_details_container{
+        max-width: 700px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .course-includes {
+        padding: 15px; /* Reduced padding for smaller screens */
+    }
+
+    .course-includes-title {
+        font-size: 1.4em; /* Adjust title size for smaller screens */
+    }
+
+    .course-includes-item {
+        font-size: 1em; /* Reduce font size for better mobile experience */
+    }
+
+    .course-includes-item i {
+        font-size: 18px; /* Adjust icon size for mobile */
+    }
+}
+
+
+
+.course-target-list, .course-includes-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.course-target-list .course-target-item {
+    margin-bottom: 1em; /* Increase space between items */
+    display: flex;
+    align-items: center;
+    font-size: 1em; /* Increased font size for readability */
+    color: #555; 
+}
+.container .woman_man{
+    width:100%;
+    max-height:80vh;
+}
+
+.course-target-item i {
+    color: #ff7a00; 
+    margin-right: 12px;
+    font-size: 18px;
+}
+
+.course-includes-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course-includes-item {
+    width: 30%;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.course-includes-item i {
+    font-size: 24px;
+    margin-right: 15px;
+    color: #333;
+}
+
+.course-includes-item p {
+    font-size: 16px;
+}
+
+
+
+
+.section {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* Hide the input (checkbox) */
+.dropdown-toggle {
+    display: none;
+}
+
+/* Style for the section headers */
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  
+    padding: 10px 0;
+}
+
+.section-header:hover {
+    background-color: #f1f1f1;
+}
+
+.section-info {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.arrow {
+    margin-left: 10px;
+    font-size: 14px;
+    transition: transform 0.3s ease;
+}
+
+/* Lecture list hidden by default */
+.lecture-list {
+    max-height: 0;
+    overflow: hidden;
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+    opacity: 0;
+}
+
+/* Toggle for dropdown */
+.dropdown-toggle:checked + .section-header .arrow {
+    transform: rotate(-180deg); /* Rotate arrow */
+}
+
+/* When the checkbox is checked, show the lecture list */
+.dropdown-toggle:checked + .section-header + .lecture-list {
+    max-height: 500px; /* Adjust as necessary */
+    opacity: 1;
+}
+
+.lecture-list li {
+    padding: 5px 0;
+    font-size: 16px;
+    color: #343a40;
+}
+.course-container {
+    width: 100%;
+   
+}
+
+.section-heading {
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.acadlix_navbar_container_list li:hover {
+    border-bottom: 1px solid var(--tertiary-color);
+ padding-bottom: 0.5em;
+}
+
+.acadlix_navbar_container_list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  
+    
+}
+.acadlix_navbar_container_list li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.acadlix_buy_now{
+    display: flex;
+}
+
+
+.four_eight_decimalstar{
+    display: flex;
+    color: orange;
+    margin-left: 40%;
+    
+}
+.acadlix_products_details_container{
+    width:1000px;
+}
+.product_page_view_all{
+position: relative;
+left: 78%;
+
+}
+.acadlix_product_page_view_all_btn{
+   
+    background-color: #ffe0d7;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+
+    color: deeppink;
+    font-weight: bold;
+    margin: 20px auto;
+    padding: 10px 20px;
+}
+
+
+.bar {
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    height: 16px;
+    margin-right: 10px;
+    margin-left: 50px;
+    margin-top: 0.5em;
+}
+
+
+
+
+
+.section-title {
+    text-align: left;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+
+.acadlix_languagelastupdated_mobile_responsive{
+    display: none;
+}
+
+
+
+.product_page_course_card{
+
+    width: 70vw;
+ white-space: nowrap;
+ overflow-x: auto;
+ overflow-y: hidden; 
+}
+.wrapper_container {
+        max-width: 380px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        position: absolute;
+        left: 75%;
+        top: 7rem
+}
+
+/* Price Section */
+.pricing_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.acadlix_current_cost {
+    font-size: 24px;
+    font-weight: normal;
+    
+}
+
+.acadlix_original_cost {
+    text-decoration: line-through;
+    font-size:large;
+ 
+    color: #7f8c8d;
+}
+
+.acadlix_discount_tag {
+    color: #ff7903;
+    display: block;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 5rem;
+    background-color: var(--primary-color);
+    padding: var(--acadlix-Button-padding);
+}
+
+
+
+
+.time_remaining {
+    color: #ff7903;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Course Details */
+.details_section {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Purchase Section */
+.purchase_options {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cart_btn, .acadlix_buy_btn, .acadlix_wishlist_btn, .gift_btn {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cart_btn {
+    background-color: var(--tertiary-color);
+    color: white;
+}
+
+.acadlix_buy_btn {
+    background-color: var(  --primary-color);
+    color:var(--secondary-color);
+}
+
+.acadlix_wishlist_btn, .gift_btn {
+    background-color: transparent;
+    border: 1px solid rgb(230, 225, 225);
+}
+.acadlix_wishlist_btn{
+    margin-right: 0.5em;
+}
+.purchase_options p {
+    font-size: 12px;
+    color: #888;
+    margin-top: 10px;
+}
+
+/* Course Features */
+.acadlix_features_list {
+    margin-top: 20px;
+}
+
+.acadlix_features_list ul {
+    list-style-type: none;
+}
+
+.acadlix_features_list li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.acadlix_features_list h4{
+    font-weight: bold;
+    margin-bottom: 0.8em;
+}
+
+
+.social_share {
+ 
+    margin-top: 20px;
+}
+
+.acadlix_share_btn {
+   width: 100%;
+    margin: 2px;
+    height: 50%;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    padding: 1em;
+    white-space: nowrap;
+    font-size: large;
+
+}
+
+.acadlix_share_btn:hover {
+    background-color: #ddd;
+}
+.acadlix_related_courses {
+    padding: 20px;
+
+    width: 100%;
+}
+
+.acadlix_related_courses h2 {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    /* text-align: center; */
+}
+
+
+.course_card {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  
+ 
+    
+}
+
+.course_card img {
+    width: 19vw;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.course_card h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 24px;
+    margin-top: 10px;
+    
+}
+
+.course_card p {
+    
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.course-offer-card {
+    
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+    
+ 
+    
+}
+
+.pricing-info .current-price {
+    color: #ff4d00;
+    font-size: 2rem;
+}
+
+.pricing-info .previous-price {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.pricing-info .offer-discount {
+    color: #ff4d00;
+    font-weight: bold;
+}
+
+.limited-time {
+    color: #e74c3c;
+    font-size: 0.9rem;
+}
+
+.course-info-list {
+    list-style-type: none;
+    margin: 20px 0;
+    text-align: left;
+    padding-left: 0;
+}
+
+
+.course-info-list li {
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-info-list .info-label {
+    font-weight: bold;
+    color: #555;
+   
+}
+.acadlix_products_details_option{
+    display: flex;
+    justify-content: space-between;
+}
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    /* width: 50%; */
+}
+
+.cart-btn, .acadlix_purchase_btn {
+    padding: 10px;
+    width: 10em;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4em;
+}
+
+.cart-btn {
+    background-color: transparent;
+    color: red;
+    border: 1px solid red;
+  
+    
+}
+
+.acadlix_purchase_btn {
+    background-color: #ffe0d7;
+    color: red;
+    /* margin-left: 67%; */
+}
+
+.cart-btn:hover, .acadlix_purchase_btn:hover {
+    opacity: 0.9;
+}
+
+
+.acdlix_star_price{
+    display: flex;
+
+    justify-content: space-between;
+}
+
+
+.lecture_list {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.lecture_item {
+    padding: 10px;
+   
+    display: flex;
+    justify-content: space-between;
+    transition: background-color 0.2s ease;
+}
+
+.lecture_item:hover {
+    background-color: #f0f0f0; /* Slight highlight on hover */
+}
+
+.lecture_duration, .lecture_size {
+    font-weight: bold;
+    color: #888;
+}
+
+.lecture_info {
+    font-size: 1.1em;
+    margin-top: 10px;
+    color: #555;
+}
+
+.fa-star:before {
+    color: var(--acadlix-icon-star-color);
+}
+
+.total_duration {
+    font-size: 1.1em;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #444;
+}
+ .fa-undo-alt{
+    color: orange;
+  }
+  .acadlix_design{
+    margin-bottom: 2em;
+background-color: var(--acadlix-background-color) ;
+width: min-content;
+position: relative;
+
+ 
+   }
+
+@media (max-width: 1399px) {
+    .wrapper_container-2 {
+        display: block; /* Shows the container on screens smaller than 1400px */
+    }
+}
+
+  @media screen and (min-width: 1400px) {
+   .wrapper_container-2 {
+        display: none; /* Hides the container on screens 1400px and larger */
+    }
+    .paragraph_productpage {
+        font-size: 2.5em;
+
+    }
+  }
+  
+@media (max-width: 600px) {
+  
+    .lecture_item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .lecture_duration, .lecture_size {
+        margin-top: 5px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .heading_productpage{
+        display: contents;
+        font-size: 1.5em;
+    }
+    .container, .acadlix_header_productpage, .course-columns, .page-container {
+        padding: 1em;
+    }
+    
+    .acadlix_languagelastupdated_mobile_responsive{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3em;
+        margin-bottom: 3em;
+       
+  
+      }
+     
+    
+   
+    .acadlix_products_details_navbar_productpage{
+        display: contents;
+    }
+  
+    .course-columns {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    
+    .column {
+        width: 100%;
+        margin-bottom: 1em; 
+    }
+    .acadlix_navbar_container_list li{
+        margin-top: 0.5em;
+    }
+  
+    
+    .acadlix_product_page_view_all_btn {
+        display: none;
+        background-color: #ffe0d7;
+        border: none;
+        border-radius: 4px;
+        color: deeppink;
+        font-weight: bold;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    .acadlix_product_page_view_all_btn:hover {
+        background-color: #ffd1c2;
+        transform: translateY(-2px); /* Subtle lift effect on hover */
+    }
+    .acdlix_star_price{
+        display: flex;
+        position: relative;
+        bottom: 10em;
+        justify-content: space-evenly;
+    }
+    .course_card p{
+        display:flex;
+        flex-direction: column;
+        position: relative;
+        bottom: 3em;
+    }
+    .course-offer-card{
+        display: contents;
+    }
+ 
+
+    .acadlix_navbar_container_list li {
+        margin-bottom: 10px; /* Add spacing between items */
+    }
+   
+
+    .acadlix_navbar_container_list{
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+    }
+
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+   .product_page_course_card{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+   }
+    .course-image img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    /* Play button container adjustments */
+    .play-button-container {
+        padding: 10px;
+    }
+
+    .play-button-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* Navbar for course page */
+    .nav-menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+  
+    .acadlix_header_productpage {
+        display: none;
+    }
+
+
+ 
+ 
+    .features-grid {
+        grid-template-columns: 1fr; 
+    }
+
+    
+  
+
+   
+
+   
+   
+   
+    .course_card h3{
+        position: relative;
+        bottom: 9em;
+        
+    }
+
+    
+
+    /* Related courses adjustments */
+   
+
+
+    .course_card {
+        
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 15px;
+    width: calc(45% - 20px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center; 
+    }
+    
+    
+.course_card img {
+    width:68vw;
+}
+
+
+.course_card h3{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+bottom: 1em;
+padding: 15px;
+}
+
+.course_card p {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    bottom: 1em;
+    justify-content: space-between;
+}
+.course-offer-card {
+    
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+ 
+    
+}
+
+
+.acdlix_star_price{
+    bottom: 0em;
+justify-content: space-between;
+
+}
+
+    /* Load more button adjustment */
+
+   
+}
