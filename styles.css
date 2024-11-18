@@ -442,7 +442,7 @@ padding: 3em 26em 5em 10em ;
 }
 
 .curriculum-title {
-    font-size: 1.6em; /* Slightly increased font size for title */
+    font-size: 1.75em; /* Slightly increased font size for title */
     font-weight: bold;
     margin-bottom: 20px;
     color: #333; /* Darkened the text color */
@@ -775,14 +775,19 @@ h1, h2, h3, h4, h5, h6 {
 .description_paragraph:last-child {
     margin-bottom: 0; /* Remove margin from last paragraph */
 }
-
+.curriculum_title{
+font-weight: 600;
+}
 @media (max-width: 768px) {
+    .curriculum_title{
+    font-size: 1.75em;
+    }
     .description {
         padding: 15px; /* Reduced padding for smaller screens */
     }
 
     .description_heading {
-        font-size: 1.6em; /* Adjust heading size for mobile */
+        font-size: 1.75em; /* Adjust heading size for mobile */
     }
 
     .description_paragraph {
@@ -800,7 +805,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .top_companies h3 {
-        font-size: 1.4em; /* Adjust title size for mobile */
+        font-size: 1.75em; /* Adjust title size for mobile */
     }
 
     .top_companies img {
@@ -819,7 +824,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .course-includes-title {
-        font-size: 1.4em; /* Adjust title size for smaller screens */
+        font-size: 1.75em; /* Adjust title size for smaller screens */
     }
 
     .course-includes-item {
@@ -952,7 +957,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-heading {
-    font-size: 2em;
+    font-size: 1.75em;
     margin-top: 20px;
     margin-bottom: 20px;
     color: #333;
@@ -1030,6 +1035,7 @@ left: 78%;
 
 .section-title {
     text-align: left;
+    font-size: 1.75em;
     color: #333;
     font-weight: bold;
     margin-bottom: 20px;
