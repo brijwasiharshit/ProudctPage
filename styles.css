@@ -233,7 +233,7 @@ padding: 3em 26em 5em 10em ;
 
 
 .acadlix_course_details {
-    background-color: #f9f9f9; 
+    /* background-color: #f9f9f9;  */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -345,9 +345,12 @@ padding: 3em 26em 5em 10em ;
 .course-columns {
     display: flex;
     flex-direction: column;
-    background-color: #e5e4e4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 41px;
+    padding-left: 2px;
     gap: 0px;
+    margin-left: 0px;
    
    
 }
@@ -398,7 +401,7 @@ padding: 3em 26em 5em 10em ;
 }
 .description_paragraph{
     font-size: 0.9em;
-    color: #555;
+    /* color: #555; */
     margin-bottom: 1em;
 
 }
@@ -413,7 +416,7 @@ padding: 3em 26em 5em 10em ;
 }
 
 .course-includes {
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -724,7 +727,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .top_companies {
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -746,7 +749,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: transform 0.3s ease; /* Smooth hover effect */
 }
 .description {
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -1041,7 +1044,6 @@ left: 78%;
 
 
 .product_page_course_card{
-
     width: 70vw;
  white-space: nowrap;
  overflow-x: auto;
